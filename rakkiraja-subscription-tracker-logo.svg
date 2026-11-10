@@ -1,0 +1,64 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 54" width="100%" height="100%">
+  <g transform="translate(0, 1)">
+
+    <!-- R: radiant theme outline -->
+    <path
+      d="M0,0 h20 c10,0 16,6 16,15 c0,6 -4,11 -10,13 l13,24 h-11 l-12,-22 h-6 v22 h-10 v-52 z m10,8 v14 h10 c4,0 7,-3 7,-7 c0,-4 -3,-7 -7,-7 h-10 z"
+      fill="none"
+      stroke="var(--main-color, #9333EA)"
+      stroke-width="3"
+      opacity="0.4"/>
+
+    <!-- Main R -->
+    <path class="main-color"
+      style="fill: var(--main-color, #9333EA);"
+      d="M0,0 h20 c10,0 16,6 16,15 c0,6 -4,11 -10,13 l13,24 h-11 l-12,-22 h-6 v22 h-10 v-52 z m10,8 v14 h10 c4,0 7,-3 7,-7 c0,-4 -3,-7 -7,-7 h-10 z"/>
+
+    <!-- Card chip -->
+    <rect x="13" y="10" width="8" height="6"
+      rx="1" fill="currentColor" opacity="0.85"/>
+
+    <line x1="15" y1="13" x2="19" y2="13"
+      style="stroke: var(--main-color, #9333EA);"
+      stroke-width="1.5"/>
+
+    <!-- akki -->
+    <text x="41" y="38"
+      font-family="'Inter', system-ui, -apple-system, sans-serif"
+      font-weight="800" font-size="40"
+      fill="currentColor" letter-spacing="-1">akki</text>
+
+    <!-- Raja: radiant theme outline -->
+    <text x="118" y="38"
+      font-family="'Inter', system-ui, -apple-system, sans-serif"
+      font-weight="800" font-size="40"
+      fill="none"
+      stroke="var(--main-color, #9333EA)"
+      stroke-width="1.5"
+      opacity="0.4"
+      letter-spacing="-1">Raja</text>
+
+    <!-- Main Raja -->
+    <text x="118" y="38" class="main-color"
+      font-family="'Inter', system-ui, -apple-system, sans-serif"
+      font-weight="800" font-size="40"
+      style="fill: var(--main-color, #9333EA);"
+      letter-spacing="-1">Raja</text>
+
+    <!-- Subscription tracker -->
+    <g transform="translate(65.5, 45.5)">
+
+      <circle cx="2" cy="5" r="2.2"
+        class="main-color"
+        style="fill: var(--main-color, #9333EA);"/>
+
+      <text x="7" y="8"
+        font-family="'Inter', system-ui, -apple-system, sans-serif"
+        font-weight="800" font-size="8.5"
+        fill="currentColor" opacity="0.85"
+        letter-spacing="1.1">SUBSCRIPTION TRACKER</text>
+
+    </g>
+  </g>
+</svg>
